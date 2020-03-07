@@ -12,5 +12,5 @@ Based on Marlin 2.0.x branch
 
 ## How to merge from Marlin repo
 `git remote add upstream https://github.com/MarlinFirmware/Marlin.git`
-`git fetch upstreat`
+`git fetch upstream`
 - then merge 2.0.x into SV-01
