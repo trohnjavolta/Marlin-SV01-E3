@@ -406,7 +406,7 @@
  *   998 : Dummy Table that ALWAYS reads 25°C or the temperature defined below.
  *   999 : Dummy Table that ALWAYS reads 100°C or the temperature defined below.
  */
-#define TEMP_SENSOR_0 1
+#define TEMP_SENSOR_0 5
 #define TEMP_SENSOR_1 0
 #define TEMP_SENSOR_2 0
 #define TEMP_SENSOR_3 0
@@ -483,9 +483,9 @@
 
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
   // Sovol SV01
-  #define DEFAULT_Kp 25.61
-  #define DEFAULT_Ki 2.35
-  #define DEFAULT_Kd 69.82
+  #define DEFAULT_Kp 15.88
+  #define DEFAULT_Ki 1.16
+  #define DEFAULT_Kd 54.41
 
 #endif // PIDTEMP
 
