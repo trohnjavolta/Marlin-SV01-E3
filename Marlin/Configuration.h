@@ -489,9 +489,9 @@
 
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
   // Sovol SV01
-  #define DEFAULT_Kp 15.88
-  #define DEFAULT_Ki 1.16
-  #define DEFAULT_Kd 54.41
+  #define DEFAULT_Kp 14.28
+  #define DEFAULT_Ki 1.04
+  #define DEFAULT_Kd 48.93
 
 #endif // PIDTEMP
 
@@ -736,7 +736,7 @@
  * Override with M92
  *                                      X, Y, Z, E0 [, E1[, E2...]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 420 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 430.48 }
 
 /**
  * Default Max Feed Rate (mm/s)
